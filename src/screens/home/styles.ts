@@ -1,4 +1,3 @@
-// src/screens/styles.ts
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
@@ -13,7 +12,7 @@ export const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 25,
     fontWeight: 'bold',
-    paddingBottom: 20, // Aumentei o espaço para alinhar os botões
+    paddingBottom: 20, 
   },
 
   btn: {

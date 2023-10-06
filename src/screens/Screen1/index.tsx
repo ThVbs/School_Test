@@ -21,7 +21,7 @@ export default function Home() {
       return;
     }
 
-    const newPrice = generateRandomPrice(); // Gere o preço aleatório
+    const newPrice = generateRandomPrice(); 
     const newUser = { id: (userData.length + 1).toString(), name, CPF, dateNasc, CEP, Relato, price: newPrice };
     setUserData([...userData, newUser]);
     setName('');

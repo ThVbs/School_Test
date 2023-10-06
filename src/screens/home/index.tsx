@@ -8,7 +8,7 @@ export default function Home({ navigation }) {
   };
 
   const navigateToScreen2 = (item) => {
-    navigation.navigate('Screen2', item); // Passa o item como parâmetro para Screen2
+    navigation.navigate('Screen2', item);
   };
 
   return (

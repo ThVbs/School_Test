@@ -12,16 +12,15 @@ export const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 25,
         fontWeight: 'bold',
-
         paddingBottom: 10,
     },
 
     input: {
-        color: '#000',
-        backgroundColor: '#fff',
+        backgroundColor: '#1E1E40',
+        borderColor: '#1E1E40',
         borderRadius: 5,
-        fontWeight: '200',
-
+        fontWeight: 'bold',
+        color: 'white',
         width: '60%',
         margin: 10,
         padding: 10,
@@ -31,7 +30,6 @@ export const styles = StyleSheet.create({
         backgroundColor: 'red',
         fontSize: 14,
         width: '60%',
-
         margin: 10,
         padding: 15,
         marginBottom: 20,
